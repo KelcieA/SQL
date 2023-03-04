@@ -1,0 +1,8 @@
+--Create Book rating database
+CREATE TABLE books (id integer primary key, name text, rating integer);
+--Insert book id, title, and rating into database
+INSERT INTO books VALUES (1, 'Pride and Prejudice' , 5);
+INSERT INTO books VALUES (2, 'Hunger Games' , 4);
+INSERT into books VALUES (3, 'To Kill a Mockingbird' , 3);
+--Examine database to check that everything is correct
+SELECT * FROM books;
